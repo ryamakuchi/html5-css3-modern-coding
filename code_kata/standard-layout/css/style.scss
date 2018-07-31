@@ -1,2 +1,84 @@
 @charset "UTF-8";
 
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+html {
+  font-size: 62.5% // 1rem = 10px
+}
+
+body {
+  color: #333;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+}
+
+a {
+  color: #d03c56;
+
+  &:link, &:visited, &:hover, &:active {
+    text-decoration: none; // 下線などを消す
+  }
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+/* --------------------------------
+ * parts
+ * -------------------------------- */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+/* --------------------------------
+ * header
+ * -------------------------------- */
+.header {
+  width: 100%;
+}
+
+
+/* --------------------------------
+ * wrapper
+ * -------------------------------- */
+.wrapper {
+  width: 970px;
+  margin: 30px auto 40px;
+}
+
+
+/* --------------------------------
+ * main
+ * -------------------------------- */
+.main {
+  display: block; // IE対策として、displayの初期値を入れておく
+  float: left;
+  width: 660px;
+}
+
+
+/* --------------------------------
+ * sidemenu
+ * -------------------------------- */
+.sidemenu {
+  float: right;
+  width: 275px;
+}
+
+
+/* --------------------------------
+ * footer
+ * -------------------------------- */
+.footer {
+  width: 100%;
+}
+
