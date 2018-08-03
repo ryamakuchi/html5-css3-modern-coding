@@ -90,6 +90,45 @@ transition-delay: 0s →変化が始まるまでの時間
 ```
 * durationとdelayは両方時間なので、delayを指定するときは必ずdurationも指定すること
 
-⚠︎ trantisionはIE10~対応
+⚠︎ transitionはIE10~対応
+
+
+
+# Chapter-04
+
+## display
+* blockは、divのような挙動。要素をブロック化することができる
+* inline-blockは、文章の中で使えるブロックのように、並べたりできるブロック要素
+* inlineは、文章のような要素。widthやheightを指定できない
+
+⚠︎ まだまだよくわかっていないことあり、調べておくこと
+
+
+## opacityと-webkit-font-smoothing
+### opacityにtransitionをかけた時に、Safariでチラつく問題があるらしい…
+* 自分で確かめてないので分からないけれど
+```
+body {
+    -webkit-font-smoothing: antiailiased;
+}
+```
+を入れると、チラつき防止になるらしい！
+
+⚠︎ まだ草案なので、ベンダープレフィックスつけること
+
+参考：
+
+https://caniuse.com/#search=font-smoothing
+https://qiita.com/hata-mu/items/98df93516cbd3f1cc418
+
+
+## HTMLのtime要素
+* time要素にはdatetimeという属性をつけることができる
+* テキストの表示形式に左右されない、正確な日時を機械に対して伝えることができる
+
+```
+datetime="2018-08-03T22:48"
+```
+* 時刻まで含めるときは、間にTをはさむ
 
 

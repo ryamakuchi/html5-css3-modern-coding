@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff85061-8db8-4fac-a9ec-ee7d0bb8ec25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code_kata/standard-layout/css/memo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/css/memo.md" beforeDir="false" afterPath="$PROJECT_DIR$/code_kata/standard-layout/css/memo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code_kata/standard-layout/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/code_kata/standard-layout/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code_kata/standard-layout/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/css/memo.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/article.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/bg-footer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/bg-header.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/bg-slash.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/hot-topic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/ranking.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/standard-layout/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,16 +39,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="268" />
-          <entry key="md" value="1938" />
-          <entry key="scss" value="981" />
+          <entry key="html" value="698" />
+          <entry key="md" value="2538" />
+          <entry key="scss" value="1476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="268" />
-          <entry key="Markdown" value="1938" />
-          <entry key="SCSS" value="981" />
+          <entry key="HTML" value="698" />
+          <entry key="Markdown" value="2538" />
+          <entry key="SCSS" value="1476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -70,20 +57,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="387">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+            <state relative-caret-position="540">
+              <caret line="172" column="3" lean-forward="true" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -102,7 +89,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="664">
-                <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+                <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
               </first_editor>
               <second_editor />
             </state>
@@ -126,8 +113,8 @@
         <option value="$PROJECT_DIR$/model/standard-layout/css/memo.md" />
         <option value="$PROJECT_DIR$/model/standard-layout/index.html" />
         <option value="$PROJECT_DIR$/code_kata/standard-layout/css/memo.md" />
-        <option value="$PROJECT_DIR$/code_kata/standard-layout/index.html" />
         <option value="$PROJECT_DIR$/code_kata/standard-layout/css/style.scss" />
+        <option value="$PROJECT_DIR$/code_kata/standard-layout/index.html" />
       </list>
     </option>
   </component>
@@ -243,12 +230,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533070608158</updated>
-      <workItem from="1533070609633" duration="10511000" />
+      <workItem from="1533070609633" duration="14862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10511000" />
+    <option name="totallyTimeSpent" value="14862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="837" extended-state="0" />
@@ -299,16 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/memo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="664">
-            <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-530">
@@ -316,17 +293,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/index.html">
+    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="540">
+          <caret line="172" column="3" lean-forward="true" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/memo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="664">
+            <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+        <state relative-caret-position="387">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>
