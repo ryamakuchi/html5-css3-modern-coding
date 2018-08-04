@@ -1,8 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/my-standard-layout" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3ff85061-8db8-4fac-a9ec-ee7d0bb8ec25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_L_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_M_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_M_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_M_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_M_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/image_S_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid-layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_L_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_L_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_M_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_M_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_M_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_M_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_M_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_M_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_M_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_M_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/image_S_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/image_S_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/grid-layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/singlepage-layout/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-singlepage-layout/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/singlepage-layout/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/my-singlepage-layout/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/singlepage-layout/images/building.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-singlepage-layout/images/building.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/singlepage-layout/images/lake.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-singlepage-layout/images/lake.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/singlepage-layout/images/sky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-singlepage-layout/images/sky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/singlepage-layout/images/tree.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-singlepage-layout/images/tree.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/singlepage-layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-singlepage-layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/singlepage-layout/lib/placeholders.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-singlepage-layout/lib/placeholders.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/css/memo.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/css/memo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/images/arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/images/arrow.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/images/article.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/images/article.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/images/bg-footer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/images/bg-footer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/images/bg-header.gif" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/images/bg-header.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/images/bg-slash.gif" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/images/bg-slash.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/images/hot-topic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/images/hot-topic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/images/ranking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/images/ranking.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_kata/standard-layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-standard-layout/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/grid-layout/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_L_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_L_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_M_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_M_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_M_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_M_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_M_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_M_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_M_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_M_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/image_S_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/image_S_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/grid-layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-grid-layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/images/building.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/images/building.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/images/lake.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/images/lake.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/images/sky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/images/sky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/images/tree.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/images/tree.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/singlepage-layout/lib/placeholders.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/singlepage-layout/lib/placeholders.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/images/arrow.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/article.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/images/article.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/bg-footer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/images/bg-footer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/bg-header.gif" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/images/bg-header.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/bg-slash.gif" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/images/bg-slash.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/hot-topic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/images/hot-topic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/images/ranking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/images/ranking.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/standard-layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/standard-layout/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,30 +160,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="27" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.actions.runAnything" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/index.html">
+        <entry file="file://$PROJECT_DIR$/my-standard-layout/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
               <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
@@ -91,20 +197,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="60">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/style.scss">
+        <entry file="file://$PROJECT_DIR$/my-standard-layout/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2580">
               <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
@@ -113,7 +228,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/style.css">
+        <entry file="file://$PROJECT_DIR$/my-standard-layout/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="35" selection-start-column="35" selection-end-column="35" />
@@ -122,7 +237,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/memo.md">
+        <entry file="file://$PROJECT_DIR$/my-standard-layout/css/memo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="2010">
@@ -153,6 +268,7 @@
         <option value="$PROJECT_DIR$/code_kata/standard-layout/css/style.scss" />
         <option value="$PROJECT_DIR$/code_kata/standard-layout/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -184,6 +300,17 @@
               <item name="html5-css3-modern-coding" type="b2602c69:ProjectViewProjectNode" />
               <item name="html5-css3-modern-coding" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="html5-css3-modern-coding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5-css3-modern-coding" type="462c0819:PsiDirectoryNode" />
+              <item name="my-standard-layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5-css3-modern-coding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5-css3-modern-coding" type="462c0819:PsiDirectoryNode" />
+              <item name="my-standard-layout" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,6 +325,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/code_kata/standard-layout" />
     </key>
   </component>
@@ -225,16 +353,15 @@
       <option name="presentableId" value="Default" />
       <updated>1533070608158</updated>
       <workItem from="1533070609633" duration="14862000" />
-      <workItem from="1533369522906" duration="93000" />
+      <workItem from="1533369522906" duration="1153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14955000" />
+    <option name="totallyTimeSpent" value="16015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="837" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2533137" />
@@ -264,7 +391,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/standard-layout/css/style.css">
+    <entry file="file://$PROJECT_DIR$/standard-layout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="16" />
@@ -272,28 +399,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/standard-layout/css/memo.md" />
-    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/index.html">
+    <entry file="file://$PROJECT_DIR$/my-standard-layout/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/my-standard-layout/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2580">
           <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/style.css">
+    <entry file="file://$PROJECT_DIR$/my-standard-layout/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code_kata/standard-layout/css/memo.md">
+    <entry file="file://$PROJECT_DIR$/my-standard-layout/css/memo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2010">
@@ -307,9 +434,16 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
