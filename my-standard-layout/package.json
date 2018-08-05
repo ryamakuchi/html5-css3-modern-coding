@@ -5,4 +5,7 @@
   "repository": "https://github.com/ryamakuchi/html5-css3-modern-coding/standard-layout",
   "author": "ryamakuchi",
   "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  }
 }
