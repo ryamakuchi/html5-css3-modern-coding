@@ -1,0 +1,8 @@
+{
+  "name": "my-standard-layout",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/ryamakuchi/html5-css3-modern-coding/standard-layout",
+  "author": "ryamakuchi",
+  "license": "MIT",
+}
