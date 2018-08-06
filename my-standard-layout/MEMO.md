@@ -142,3 +142,35 @@ datetime="2018-08-03T22:48"
 子要素にもline-heightは引き継がれるため、
 絶対基準ではなく相対基準で書いたほうがよいため
 
+
+## overflow
+* 要素からはみ出したコンテンツの表示方法を指定できる
+    * visible(初期値)
+    * hidden
+    * scroll ... スクロールバーは常に表示される
+    * auto ... ブラウザに依存する（スクロール領域があればスクロールが表示される）
+
+
+## width min-width max-width
+* 最小幅と最低幅が指定できる
+
+
+## nth-typeとnth-child擬似クラス
+* nth-type(n)で「同じ階層のn番目の要素」にスタイルを当てることができる
+* nに指定できるのは整数、数式、even(偶数)、odd(奇数)
+* 数えられるのは、その要素の子要素のため、クラス指定しても常に要素ごとの順番が数えられる
+
+
+## text-overflow: ellipsis;
+* 表示領域からはみ出て見えなくなる時のテキストの最後に...をつけてくれる
+    * clip(初期値) ... 表示領域を境目にして非表示になる
+    * ellipsis ... テキストの最後は...で表示される
+* 通常は折り返して表示されてしまうので、一緒に
+white-space: nowrap;も指定する
+```
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+```
+
+
