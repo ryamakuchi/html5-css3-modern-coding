@@ -1,22 +1,24 @@
+@charset "UTF-8";
+
 /* --------------------------------
  * base
  * -------------------------------- */
 html {
-  font-size: 62.5%; }
-
+  font-size: 62.5%;
+}
 body {
   color: #333;
   font-size: 1.2rem;
   font-family: "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
-  -webkit-font-smoothing: antialiased; }
-
-a {
-  color: #d03c56; }
-  a:link, a:visited, a:hover, a:active {
-    text-decoration: none; }
-
+}
 *, *::before, *::after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+a:link, a:visited, a:hover, a:active {
+  color: #d03c56;
+  text-decoration: none;
+}
+
 
 /* --------------------------------
  * parts
@@ -24,7 +26,8 @@ a {
 .clearfix::after {
   content: '';
   display: block;
-  clear: both; }
+  clear: both;
+}
 
 /* --------------------------------
  * header
@@ -33,46 +36,55 @@ a {
   width: 100%;
   padding: 28px 0 10px;
   background: url("../images/bg-header.gif") repeat-x;
-  box-shadow: 0 0 10px 1px #e3e3e3; }
-  .header .logo {
-    width: 225px;
-    height: 56px;
-    margin: 0 auto;
-    background: url("../images/logo.png") no-repeat;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden; }
-    .header .logo a {
-      display: block;
-      width: 100%;
-      height: 100%; }
-  .header .global-nav {
-    margin-top: 15px;
-    text-align: center; }
-    .header .global-nav .nav-item {
-      display: inline-block;
-      margin: 0 10px; }
-      .header .global-nav .nav-item a {
-        display: inline-block;
-        width: 100px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-        border-radius: 8px;
-        color: #666;
-        font-size: 1.3rem;
-        letter-spacing: 1px;
-        transition: 0.15s; }
-    .header .global-nav .active a, .header .global-nav a:hover {
-      background-color: #d03c56;
-      color: #fff; }
+  box-shadow: 0 0 10px 1px #e3e3e3;
+}
+.logo {
+  width: 225px;
+  height: 56px;
+  margin: 0 auto;
+  background: url("../images/logo.png") no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.global-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+.global-nav .nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+.global-nav .nav-item a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  transition: 0.15s;
+}
+.global-nav .nav-item.active a,
+.global-nav .nav-item a:hover {
+  background-color: #d03c56;
+  color: #fff;
+}
 
 /* --------------------------------
  * wrapper
  * -------------------------------- */
 .wrapper {
   width: 970px;
-  margin: 30px auto 40px; }
+  margin: 30px auto 40px;
+}
 
 /* --------------------------------
  * main
@@ -80,51 +92,55 @@ a {
 .main {
   display: block;
   float: left;
-  width: 660px; }
-
-/* --------------------------------
- * hot-topic
- * -------------------------------- */
+  width: 660px;
+}
 .hot-topic {
   display: block;
   height: 300px;
   margin-bottom: 30px;
   box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.15);
-  transition: opacity 0.15s; }
-  .hot-topic:hover {
-    opacity: 0.85; }
-  .hot-topic .image {
-    float: left;
-    width: 50%;
-    height: 100%; }
-  .hot-topic .content {
-    position: relative;
-    float: left;
-    width: 50%;
-    height: 100%;
-    padding: 105px 25px 0;
-    background-color: #2d3d54;
-    line-height: 1.6; }
-  .hot-topic .title {
-    margin-bottom: 15px;
-    color: #fff;
-    font-weight: normal;
-    font-size: 2rem; }
-  .hot-topic .desc {
-    color: #ddc; }
-  .hot-topic .date {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 140px;
-    padding: 4px;
-    background-color: #fff;
-    color: #2d3d54;
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    line-height: 1; }
+  transition: opacity 0.15s;
+}
+.hot-topic:hover {
+  opacity: 0.85;
+}
+.hot-topic .image {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.hot-topic .content {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 105px 25px 0;
+  background-color: #2d3d54;
+  line-height: 1.6;
+}
+.hot-topic .title {
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2.0rem;
+}
+.hot-topic .desc {
+  color: #ddc;
+}
+.hot-topic .date {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 140px;
+  padding: 4px;
+  background-color: #fff;
+  color: #2d3d54;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1;
+}
 
 /* --------------------------------
  * sidemenu
