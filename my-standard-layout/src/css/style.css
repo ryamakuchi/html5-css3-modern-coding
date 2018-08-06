@@ -28,6 +28,9 @@ a:link, a:visited, a:hover, a:active {
   display: block;
   clear: both;
 }
+.hidden {
+  display: none;
+}
 
 /* --------------------------------
  * header
