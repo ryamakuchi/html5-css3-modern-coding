@@ -233,4 +233,3 @@ white-space: nowrap;も指定する
         * noneは他の線が優先される
         * hiddenはhiddenの線が優先される
 
-
