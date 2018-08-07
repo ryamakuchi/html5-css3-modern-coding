@@ -418,3 +418,23 @@ a:link, a:visited, a:hover, a:active {
   text-align: center;
   letter-spacing: 1px;
 }
+
+
+/* --------------------------------
+ * self coding
+ * -------------------------------- */
+.ranking .order {
+  position: absolute;
+  margin: -10px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: rotate(0deg);
+  z-index: 2;
+}
+.ranking .order::before {
+  transform: rotate(0deg);
+}
+.ranking .text {
+  margin-left: 20px;
+  width: 200px;
+}
