@@ -217,3 +217,20 @@ white-space: nowrap;も指定する
 * マウスポインタの形を指定できる
 * 色々指定できたり、画像に変えたりもできる
 
+
+# Chapter-06
+
+## border-styleに指定できる線の種類
+* none ... (初期値)
+* hidden ... (非表示)
+* dashed ... (破線)
+* dotted ... (点線)
+* inset ... (彫り込んだボックス)
+* outset ... (浮き出たボックス)
+* groove ... (彫り込んだ線)
+* ridge ... (浮き出た線)
+    * noneとhiddenは同じく非表示だが、他の線と重なったとき、
+        * noneは他の線が優先される
+        * hiddenはhiddenの線が優先される
+
+
