@@ -258,7 +258,33 @@ a:link, a:visited, a:hover, a:active {
   float: right;
   width: 275px;
   height: 500px;
-  background-color: #ccc;
+}
+.ranking {
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+.ranking .ranking-item {
+  margin-top: 15px;
+}
+.ranking .ranking-item a {
+  display: block;
+  font-size: 0;
+  transition: opacity 0.15s;
+}
+.ranking .ranking-item a:hover {
+  opacity: 0.8;
+}
+.ranking .image {
+  width: 55px;
+  height: 55px;
+}
+.ranking .text {
+  display: inline-block;
+  width: 182px;
+  color: #000;
+  vertical-align: top;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 /* --------------------------------
