@@ -1,4 +1,4 @@
-My Standard LayOut SCSS
+My Standard Layout SCSS
 =========
 
 ### Setup
