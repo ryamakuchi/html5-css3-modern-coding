@@ -1,0 +1,17 @@
+{
+  "name": "my-standard-layout-scss",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/ryamakuchi/html5-css3-modern-coding/my-standard-layout-scss",
+  "author": "ryamakuchi",
+  "license": "MIT",
+  "scripts": {
+    "build:scss": "node-sass --recursive src/scss --output src/css",
+    "build:scss:watch": "node-sass --recursive src/scss --output src/css --watch",
+    "serve": "browser-sync start --server 'src' --files 'src/css/*.css', 'src/*.html'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "node-sass": "^4.9.3"
+  }
+}
