@@ -1,4 +1,4 @@
-My Standard LayOut
+My Standard LayOut SCSS
 =========
 
 ### Setup
@@ -7,6 +7,10 @@ yarn install
 ```
 
 ### Development
+```
+yarn run build:scss:watch
+```
+
 ```
 yarn run serve
 ```
