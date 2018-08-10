@@ -423,18 +423,21 @@ a:link, a:visited, a:hover, a:active {
 /* --------------------------------
  * self coding
  * -------------------------------- */
+.ranking .ranking-item a {
+  position: relative;
+}
 .ranking .order {
   position: absolute;
-  margin: -10px;
+  top: -10px;
+  left: 35px;
   border-radius: 50%;
   background-color: #fff;
   transform: rotate(0deg);
-  z-index: 2;
 }
 .ranking .order::before {
   transform: rotate(0deg);
 }
 .ranking .text {
   margin-left: 20px;
-  width: 200px;
+  width: calc(275px - (55px + 20px)); /* 横幅(275px) - 画像(55px) + 余白(20px) = 200px */
 }
