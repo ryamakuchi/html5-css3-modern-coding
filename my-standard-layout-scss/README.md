@@ -16,5 +16,5 @@ yarn run serve
 ```
 
 ```
-open http://localhost:3001
+open http://localhost:3000
 ```
