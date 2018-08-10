@@ -233,3 +233,31 @@ white-space: nowrap;も指定する
         * noneは他の線が優先される
         * hiddenはhiddenの線が優先される
 
+# セルフコーディングにチャレンジ!
+
+## calc()
+* +-*/の計算ができる。pxでも%でもできる。
+> * 梅）コメント
+コードだけで伝えるのが難しいときは、コメントで補う。
+ width: 200px; /* .side-menu の横幅 275px から画像と余白を引いた値 */
+> * 竹）コメント + 計算式
+ 計算式を書いておくと、暗算でミスを起こすのを避けられる。
+ width: calc(275px - (55px + 20px)); /* .side-menu の横幅から画像と余白を引いた値 */
+ https://caniuse.com/#search=calc は使って良い時代。
+> * 松）変数で説明＆変更を自動反映
+ SCSS が使えるなら、という前提だけど、ここは変数の使いどころ。
+ 各値を変数名で示しているので、コメントも不要になる。
+ ```
+ $side-menu-width: 275px;
+ $ranking-image-width: 55px;
+ $ranking-image-margin: 20px;
+ 
+ .side-menu {
+   width: $side-menu-width;
+ }
+ 
+ .ranking .text {
+   width: calc($side-menu-width - ($ranking-image-width - $ranking-image-margin));
+ }
+ ```
+ 
