@@ -19,7 +19,6 @@ body {
 
   .main {
     width: $main-width;
-    float: left;
     background-color: #6e7b84;
     height: 1000px;
   }
@@ -27,7 +26,6 @@ body {
   .sidemenu {
     width: $sidemenu-width;
     margin-left: 35px;
-    float: left;
     background-color: #6e7b84;
     height: 1000px;
   }
@@ -40,6 +38,12 @@ body {
 }
 
 //parts
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
 .clearfix::after { // これの定型文忘れてたので、チラ見。
   content: '';
   display: block;
