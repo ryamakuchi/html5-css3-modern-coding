@@ -7,36 +7,6 @@ body {
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; // 自動補完で出ててきたやつだけど、合ってるかわからない。
 }
 
-.header {
-  width: 100%;
-  background-color: #6e7b84;
-  height: 100px;
-}
-
-.wrapper {
-  width: $wrapper-width;
-  margin: 30px auto 40px;
-
-  .main {
-    width: $main-width;
-    background-color: #6e7b84;
-    height: 1000px;
-  }
-
-  .sidemenu {
-    width: $sidemenu-width;
-    margin-left: 35px;
-    background-color: #6e7b84;
-    height: 1000px;
-  }
-}
-
-.footer {
-  width: 100%;
-  background-color: #6e7b84;
-  height: 50px;
-}
-
 //parts
 .left {
   float: left;

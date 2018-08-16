@@ -1,0 +1,17 @@
+.wrapper {
+  width: $wrapper-width;
+  margin: 30px auto 40px;
+
+  .main {
+    width: $main-width;
+    background-color: #6e7b84;
+    height: 1000px;
+  }
+
+  .sidemenu {
+    width: $sidemenu-width;
+    margin-left: 35px;
+    background-color: #6e7b84;
+    height: 1000px;
+  }
+}
