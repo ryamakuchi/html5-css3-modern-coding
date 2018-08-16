@@ -36,7 +36,7 @@
         line-height: $nav-height;
         color: $nav-color;
         font-size: 1.3rem; // 値だけ見た
-        letter-spacing: 1px; // 値だけ見た
+        letter-spacing: $letter-spacing;
         border-radius: 8px; // 値だけ見た
         transition: 0.15s; // 値だけ見た、こういう値は、変数のほうが良い?
       }
