@@ -21,9 +21,22 @@
 
   .global-nav {
     text-align: center;
+    margin-top: 15px; // ここのPX数はわからなかったので、デモページの値を見た
 
     .nav-item {
       display: inline-block;
+
+      a {
+        display: block;
+        width: $nav-width;
+        height: $nav-height;
+        text-align: center;
+        line-height: $nav-height;
+        color: $nav-color;
+        font-size: 1.3rem; // これは値だけ見た
+        letter-spacing: 1px; // これも値だけ見た
+        transition: 0.15s; // これも値だけ見た、こういう値は、変数のほうが良い?
+      }
     }
   }
 }
