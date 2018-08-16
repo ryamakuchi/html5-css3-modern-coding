@@ -12,6 +12,11 @@ body {
   box-sizing: border-box; // chapter-2 の段階で指定するのを忘れていた
 }
 
+a:link, a:visited, a:hover, a:active { // aタグを書いているうちに、aタグに指定しなければと気づいて、チラ見した。
+  color: $link-color;
+  text-decoration: none;
+}
+
 //parts
 .left {
   float: left;
