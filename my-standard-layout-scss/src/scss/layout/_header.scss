@@ -1,5 +1,21 @@
 .header {
   width: 100%;
-  background-color: #6e7b84;
-  height: 100px;
+  padding: 28px 0 10px; // ここのPX数はわからなかったので、デモページの値を見た
+  background: url("../../images/bg-header.gif") repeat-x; // repeat-xかx-repeatか不安だった
+
+  .logo {
+    width: $logo-width;
+    height: $logo-height;
+    margin: 0 auto;
+    background: url("../../images/logo.png") no-repeat;
+    overflow: hidden; // このプロパティは、忘れていたのでチラ見した
+    white-space: nowrap; // 上と同じ
+    text-indent: 100%; // 上と同じ
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
