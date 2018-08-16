@@ -2,10 +2,12 @@
   width: 100%;
   padding: 20px 0 30px;
   background: $footer-bg-color url("../../images/bg-footer.gif"); // この画像は縦横どっちにもrepeatするものだった
+  letter-spacing: $letter-spacing;
   color: white;
 
   .horizontal-list {
-    width: 100%;
+    width: 970px;
+    margin: 0 auto;
     text-align: right;
 
     .horizontal-item {
@@ -18,7 +20,6 @@
       }
 
       a {
-        letter-spacing: $letter-spacing;
         color: $footer-nav-color;
         font-size: 1.1rem;
         border-bottom: 1px dashed #777; // ここの書き方覚えていなかったのでチラ見
@@ -33,5 +34,6 @@
 
   .copyright {
     text-align: center;
+    margin-top: 30px;
   }
 }
