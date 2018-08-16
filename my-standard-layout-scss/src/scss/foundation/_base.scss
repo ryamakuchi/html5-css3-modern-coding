@@ -3,8 +3,13 @@ html {
 }
 
 body {
+  color: $text-color; // $text-colorを指定するのを忘れていた
   font-size: 1.2rem; // これは、わからなくて、チラ見してしまった
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; // 自動補完で出ててきたやつだけど、合ってるかわからない。
+}
+
+*, *:before, *::after {
+  box-sizing: border-box; // chapter-2 の段階で指定するのを忘れていた
 }
 
 //parts
