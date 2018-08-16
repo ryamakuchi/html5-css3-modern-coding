@@ -11,8 +11,23 @@
     .horizontal-item {
       display: inline-block;
       padding: 0 15px;
-      letter-spacing: $letter-spacing;
-      color: $footer-nav-color;
+      border-right: $footer-nav-color 1px inset;
+
+      &:last-child { // これとnthが混同しやすいので、気をつけて使う
+        border-right: none;
+      }
+
+      a {
+        letter-spacing: $letter-spacing;
+        color: $footer-nav-color;
+        font-size: 1.1rem;
+        border-bottom: 1px dashed #777; // ここの書き方覚えていなかったのでチラ見
+        transition: color $transition-time; // ここもheaderと同じ値だったので変数化した
+
+        &:hover {
+          color: $footer-nav-hover;
+        }
+      }
     }
   }
 
