@@ -3,4 +3,17 @@
   padding: 20px 0 30px;
   background: $footer-bg-color url("../../images/bg-footer.gif"); // この画像は縦横どっちにもrepeatするものだった
   color: white;
+
+  .horizontal-list {
+    width: 100%;
+    text-align: right;
+
+    .horizontal-item {
+      display: inline-block;
+    }
+  }
+
+  .copyright {
+    text-align: center;
+  }
 }
