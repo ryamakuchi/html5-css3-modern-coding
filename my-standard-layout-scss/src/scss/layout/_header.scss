@@ -1,5 +1,49 @@
 .header {
   width: 100%;
-  background-color: #6e7b84;
-  height: 100px;
+  padding: 28px 0 10px; // ここのPX数はわからなかったので、デモページの値を見た
+  background: url("../../images/bg-header.gif") repeat-x; // repeat-xかx-repeatか不安だった
+  box-shadow: 0 0 10px 1px $box-shadow;
+
+  .logo {
+    width: $logo-width;
+    height: $logo-height;
+    margin: 0 auto;
+    background: url("../../images/logo.png") no-repeat;
+    overflow: hidden; // このプロパティは、忘れていたのでチラ見した
+    white-space: nowrap; // 上と同じ
+    text-indent: 100%; // 上と同じ
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .global-nav {
+    text-align: center;
+    margin-top: 15px; // ここのPX数はわからなかったので、デモページの値を見た
+
+    .nav-item {
+      display: inline-block;
+      margin: 0 10px; // 値だけ見た
+
+      a {
+        display: block;
+        width: $nav-width;
+        height: $nav-height;
+        text-align: center;
+        line-height: $nav-height;
+        color: $nav-color;
+        font-size: 1.3rem; // 値だけ見た
+        letter-spacing: 1px; // 値だけ見た
+        border-radius: 8px; // 値だけ見た
+        transition: 0.15s; // 値だけ見た、こういう値は、変数のほうが良い?
+      }
+    }
+    .active a, .nav-item a:hover {
+      color: white;
+      background-color: $link-color;
+    }
+  }
 }
