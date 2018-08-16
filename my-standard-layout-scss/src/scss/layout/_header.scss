@@ -18,4 +18,12 @@
       height: 100%;
     }
   }
+
+  .global-nav {
+    text-align: center;
+
+    .nav-item {
+      display: inline-block;
+    }
+  }
 }
