@@ -84,3 +84,8 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+// IE対応
+main {
+    display: block;
+}

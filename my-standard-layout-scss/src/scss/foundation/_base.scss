@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.2rem; // これは、わからなくて、チラ見してしまった
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; // 自動補完で出ててきたやつだけど、合ってるかわからない。
+}
+
+//parts
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after { // これの定型文忘れてたので、チラ見。
+  content: '';
+  display: block;
+  clear: both;
+}
