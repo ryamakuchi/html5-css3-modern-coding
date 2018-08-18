@@ -9,6 +9,7 @@
       display: block;
       height: $hot-topic-height;
       width: 100%;
+      margin-bottom: 30px;
 
       .content {
         position: relative;
@@ -41,6 +42,25 @@
           letter-spacing: $letter-spacing;
           background-color: white;
           color: $blue-color;
+        }
+      }
+    }
+
+    .scroll-list {
+      overflow-y: auto;
+      max-height: 220px; // お手本チラ見した
+
+      .scroll-item a {
+        display: block;
+        padding: 10px 15px; // お手本チラ見した
+        color: $text-color;
+
+        .date {
+          display: inline-block;
+          width: 19%; // お手本チラ見した
+          font-weight: bold;
+          font-size: 1.0rem; // お手本チラ見した
+          letter-spacing: $letter-spacing;
         }
       }
     }
