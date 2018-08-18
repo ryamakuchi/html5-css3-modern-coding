@@ -4,3 +4,11 @@
   letter-spacing: 1px;
   padding: 10px 12px;
 }
+
+.shine {
+  transition: opacity 0.15s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
