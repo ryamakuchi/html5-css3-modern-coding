@@ -159,8 +159,37 @@
 
   .sidemenu {
     width: $sidemenu-width;
-    margin-left: 35px;
-    background-color: #6e7b84;
-    height: 1000px;
+    margin-left: calc(#{$wrapper-width} - (#{$main-width} + #{$sidemenu-width}));
+
+    .ranking {
+      list-style-type: none; // お手本チラ見した
+      counter-reset: ranking; // お手本チラ見した、覚えなきゃ!
+      margin-bottom: $margin-bottom;
+
+      .ranking-item {
+        margin-top: 15px; // お手本チラ見した
+
+        a {
+          display: block;
+          font-size: 0;
+
+          .image {
+            display: inline-block;
+            width: 55px;
+            height: 55px;
+          }
+
+          .text {
+            display: inline-block;
+            width: $ranking-text-width;
+            margin-left: calc(#{$sidemenu-width} - (55px + #{$ranking-text-width}));
+            font-size: 1.2rem; // お手本チラ見した
+            color: black;
+            line-height: 1.5; // お手本チラ見した
+            vertical-align: top;
+          }
+        }
+      }
+    }
   }
 }
