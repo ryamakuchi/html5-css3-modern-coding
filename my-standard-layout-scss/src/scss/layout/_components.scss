@@ -6,7 +6,7 @@
 }
 
 .shine {
-  transition: opacity 0.15s;
+  transition: opacity $transition-time;
 
   &:hover {
     opacity: 0.8;
