@@ -63,6 +63,14 @@
           letter-spacing: $letter-spacing;
         }
       }
+
+      .scroll-item:nth-child(even) a {
+        background: url("../../images/bg-slash.gif");
+      }
+
+      .scroll-item a:hover {
+        background-color: $scroll-item-hover;
+      }
     }
   }
 
