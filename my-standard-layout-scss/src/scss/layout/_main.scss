@@ -172,12 +172,7 @@
         a {
           display: block;
           font-size: 0;
-
-          .image {
-            display: inline-block;
-            width: 55px;
-            height: 55px;
-          }
+          position: relative;
 
           .text {
             display: inline-block;
@@ -188,6 +183,54 @@
             line-height: 1.5; // お手本チラ見した
             vertical-align: top;
           }
+
+          .image {
+            display: inline-block;
+            width: 55px; // お手本チラ見した
+            height: 55px; // お手本チラ見した
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 22px;
+            left: calc(55px + 10px);
+            width: 18px; // お手本チラ見した
+            height: 18px; // お手本チラ見した
+            border: 1px solid #ccc;
+            transform: rotate(45deg);
+          }
+
+          &::after {
+            content: counter(ranking); // お手本チラ見した、覚えなきゃ!
+            counter-increment: ranking;
+            position: absolute;
+            top: 23px;
+            left: calc(55px + 10px);
+            width: 18px; // お手本チラ見した
+            height: 18px; // お手本チラ見した
+            font-size: 1.0rem;
+            text-align: center;
+            line-height: 16px; // お手本チラ見した
+            font-weight: bold;
+            color: #aaa; // お手本チラ見した
+          }
+        }
+
+        @for $i from 1 through 3 { // 少し、SCSSならではのことをしたくなって、繰り返しと分岐を入れてみた!
+
+          &:nth-child(#{$i}) a:before { // ランキング1~3の背景色を変える
+            border: none;
+
+            @if $i == 1 { background-color: #dab413; }
+            @if $i == 2 { background-color: #6e7b84; }
+            @if $i == 3 { background-color: #a0541a; }
+          }
+        } // 読みやすいかどうかは、別…
+
+        &:nth-child(-n+3) a::after { // ランキング1~3は中の文字色も変わる
+          color: white;
+          font-weight: normal;
         }
       }
     }
