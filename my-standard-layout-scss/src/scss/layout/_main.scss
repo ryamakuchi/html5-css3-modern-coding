@@ -9,6 +9,7 @@
       display: block;
       height: $hot-topic-height;
       width: 100%;
+      margin-bottom: $margin-bottom;
 
       .content {
         position: relative;
@@ -41,6 +42,116 @@
           letter-spacing: $letter-spacing;
           background-color: white;
           color: $blue-color;
+        }
+      }
+    }
+
+    .scroll-list {
+      overflow-y: auto;
+      max-height: 220px; // お手本チラ見した
+      margin-bottom: $margin-bottom;
+
+      .scroll-item a {
+        display: block;
+        padding: 10px 15px; // お手本チラ見した
+        color: $text-color;
+        font-size: 0; // なんか変な隙間があるなぁと思ったら、inline-blockのときにこれつけるの忘れてた
+
+        .date {
+          display: inline-block;
+          width: $news-date-width;
+          font-weight: bold;
+          font-size: 1.0rem; // お手本チラ見した
+          letter-spacing: $letter-spacing;
+        }
+
+        .category {
+          display: inline-block;
+          width: $news-category-width;
+          color: white;
+          text-align: center;
+          letter-spacing: $letter-spacing;
+          font-size: 1.0rem;
+          line-height: 16px; // お手本チラ見した
+          border-radius: 5px; // お手本チラ見した
+          background-color: $red-color;
+
+          &.news {
+            background-color: $blue-color;
+          }
+        }
+        .title {
+          display: inline-block;
+          width: calc(100% - (#{$news-date-width} + #{$news-category-width}));
+          font-size: 1.2rem; // お手本チラ見した
+          padding-left: 15px; // お手本チラ見した
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .scroll-item:nth-child(even) a {
+        background: url("../../images/bg-slash.gif");
+      }
+
+      .scroll-item a:hover {
+        background-color: $scroll-item-hover;
+      }
+    }
+
+    .articles {
+
+      .article-box {
+        display: block;
+        position: relative;
+        width: $article-box-width;
+        height: $article-box-height;
+        box-shadow: $article-box-shadow;
+        margin-bottom: $margin-bottom;
+        float: left;
+        padding: $article-box-padding;
+
+        .image {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+
+        .title {
+          margin-top: 30px; // お手本チラ見した
+          font-size: 1.4rem; // お手本チラ見した
+          line-height: 1.6; // お手本チラ見した
+          color: $article-title-color;
+        }
+
+        .desc {
+          margin-top: 5px; // お手本チラ見した
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          color: $text-color;
+        }
+
+        .date {
+          display: block;
+          position: absolute;
+          bottom: 15px;
+          right: 0;
+          width: 160px; // お手本チラ見した
+          padding: 4px; // お手本チラ見した
+          background-color: $green-color;
+          color: $blue-color;
+          text-align: center;
+          font-size: 1.1rem; // お手本チラ見した
+          font-weight: bold;
+          letter-spacing: $letter-spacing;
+        }
+
+        &:nth-child(even) {
+          float: right;
         }
       }
     }
