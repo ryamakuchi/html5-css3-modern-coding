@@ -8,7 +8,9 @@ html {
 }
 
 body {
-  font-size: 1.1rem;
+  font-size: 1.2rem; // font-sizeも図ったのと違ってた
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; // これもこの章で指定するの忘れていた
+  color: $primary-text-color; // これも
 }
 
 a, a:hover, a:link, a:visited, a:active {

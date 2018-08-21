@@ -1,10 +1,11 @@
 .wrapper {
-  margin: 30px auto;
-  width: 968px;
+  margin: 30px auto 40px; // 下のmarginは40pxだった
+  width: 970px; // ここは970pxだった
 
 
   .main {
-    width: 658px;
+    width: 660px; // ここは660pxで良かった
+    margin-right: 35px; // これを忘れていた
     background-color: #6e7b84; // 仮で
     height: 600px; // 仮で
   }
