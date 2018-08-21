@@ -4,12 +4,40 @@ $main-width: 660px;
 
 $sidemenu-width: 275px;
 
-
-// header ここらへんの値は基本的に覚えてなかったので、すべてチラ見した。
+// ここらへんの値は基本的に覚えてなかったので、すべてチラ見した。
+// header
 $logo-width: 224px; // これの値だけお手本と違っていたが、落としてきたlogo.pngの横幅は224pxだったので、このままにしておく。
 $logo-height: 56px;
 $nav-width: 100px;
 $nav-height: 30px;
+
+// main
+$hot-topic-height: 300px;
+
+$hot-topic-title: 2.0rem;
+
+$news-date-width: 19%;
+
+$news-category-width: 8%;
+
+$article-box-width: 315px;
+
+$article-box-height: 360px;
+
+$article-box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
+
+$article-box-padding: 210px 15px 0;
+
+
+// sidemenu
+$ranking-text-width: 182px;
+
+
+// margin-bottom
+$margin-bottom: 30px;
+
+// line-height
+$line-height: 1.6;
 
 // letter-spacing
 $letter-spacing: 1px;

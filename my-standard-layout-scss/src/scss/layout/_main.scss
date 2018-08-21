@@ -4,14 +4,302 @@
 
   .main {
     width: $main-width;
-    background-color: #6e7b84;
-    height: 1000px;
+
+    .hot-topic {
+      display: block;
+      height: $hot-topic-height;
+      width: 100%;
+      margin-bottom: $margin-bottom;
+
+      .content {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        padding: 105px 25px 0; // お手本チラ見した
+        background-color: $blue-color;
+        line-height: $line-height;
+
+        .title {
+          color: white;
+          font-size: $hot-topic-title;
+          font-weight: lighter;
+        }
+
+        .desc {
+          color: #ddc;
+          padding: 15px 0;
+        }
+
+        .date {
+          position: absolute;
+          top: 60px; // お手本チラ見した
+          left: 0;
+          width: 140px; // お手本チラ見した
+          text-align: center;
+          font-weight: bold;
+          font-size: 1.1rem;
+          line-height: 1.9rem; // お手本と違う書き方をしてみた
+          letter-spacing: $letter-spacing;
+          background-color: white;
+          color: $blue-color;
+        }
+      }
+    }
+
+    .scroll-list {
+      overflow-y: auto;
+      max-height: 220px; // お手本チラ見した
+      margin-bottom: $margin-bottom;
+
+      .scroll-item a {
+        display: block;
+        padding: 10px 15px; // お手本チラ見した
+        color: $text-color;
+        font-size: 0; // なんか変な隙間があるなぁと思ったら、inline-blockのときにこれつけるの忘れてた
+
+        .date {
+          display: inline-block;
+          width: $news-date-width;
+          font-weight: bold;
+          font-size: 1.0rem; // お手本チラ見した
+          letter-spacing: $letter-spacing;
+        }
+
+        .category {
+          display: inline-block;
+          width: $news-category-width;
+          color: white;
+          text-align: center;
+          letter-spacing: $letter-spacing;
+          font-size: 1.0rem;
+          line-height: 16px; // お手本チラ見した
+          border-radius: 5px; // お手本チラ見した
+          background-color: $red-color;
+
+          &.news {
+            background-color: $blue-color;
+          }
+        }
+        .title {
+          display: inline-block;
+          width: calc(100% - (#{$news-date-width} + #{$news-category-width}));
+          font-size: 1.2rem; // お手本チラ見した
+          padding-left: 15px; // お手本チラ見した
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .scroll-item:nth-child(even) a {
+        background: url("../../images/bg-slash.gif");
+      }
+
+      .scroll-item a:hover {
+        background-color: $scroll-item-hover;
+      }
+    }
+
+    .articles {
+
+      .article-box {
+        display: block;
+        position: relative;
+        width: $article-box-width;
+        height: $article-box-height;
+        box-shadow: $article-box-shadow;
+        margin-bottom: $margin-bottom;
+        float: left;
+        padding: $article-box-padding;
+
+        .image {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+
+        .title {
+          margin-top: 30px; // お手本チラ見した
+          font-size: 1.4rem; // お手本チラ見した
+          line-height: 1.6; // お手本チラ見した
+          color: $article-title-color;
+        }
+
+        .desc {
+          margin-top: 5px; // お手本チラ見した
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          color: $text-color;
+        }
+
+        .date {
+          display: block;
+          position: absolute;
+          bottom: 15px;
+          right: 0;
+          width: 160px; // お手本チラ見した
+          padding: 4px; // お手本チラ見した
+          background-color: $green-color;
+          color: $blue-color;
+          text-align: center;
+          font-size: 1.1rem; // お手本チラ見した
+          font-weight: bold;
+          letter-spacing: $letter-spacing;
+        }
+
+        &:nth-child(even) {
+          float: right;
+        }
+      }
+    }
   }
 
   .sidemenu {
     width: $sidemenu-width;
-    margin-left: 35px;
-    background-color: #6e7b84;
-    height: 1000px;
+    margin-left: calc(#{$wrapper-width} - (#{$main-width} + #{$sidemenu-width}));
+
+    .ranking {
+      list-style-type: none; // お手本チラ見した
+      counter-reset: ranking; // お手本チラ見した、覚えなきゃ!
+      margin-bottom: $margin-bottom;
+
+      .ranking-item {
+        margin-top: 15px; // お手本チラ見した
+
+        a {
+          display: block;
+          font-size: 0;
+          position: relative;
+
+          .text {
+            display: inline-block;
+            width: $ranking-text-width;
+            margin-left: calc(#{$sidemenu-width} - (55px + #{$ranking-text-width}));
+            font-size: 1.2rem; // お手本チラ見した
+            color: black;
+            line-height: 1.5; // お手本チラ見した
+            vertical-align: top;
+          }
+
+          .image {
+            display: inline-block;
+            width: 55px; // お手本チラ見した
+            height: 55px; // お手本チラ見した
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 22px;
+            left: calc(55px + 10px);
+            width: 18px; // お手本チラ見した
+            height: 18px; // お手本チラ見した
+            border: 1px solid $gray-background-color;
+            transform: rotate(45deg);
+          }
+
+          &::after {
+            content: counter(ranking); // お手本チラ見した、覚えなきゃ!
+            counter-increment: ranking;
+            position: absolute;
+            top: 23px;
+            left: calc(55px + 10px);
+            width: 18px; // お手本チラ見した
+            height: 18px; // お手本チラ見した
+            font-size: 1.0rem;
+            text-align: center;
+            line-height: 16px; // お手本チラ見した
+            font-weight: bold;
+            color: #aaa; // お手本チラ見した
+          }
+        }
+
+        @for $i from 1 through 3 { // 少し、SCSSならではのことをしたくなって、繰り返しと分岐を入れてみた!
+
+          &:nth-child(#{$i}) a:before { // ランキング1~3の背景色を変える
+            border: none;
+
+            @if $i == 1 { background-color: #dab413; }
+            @if $i == 2 { background-color: #6e7b84; }
+            @if $i == 3 { background-color: #a0541a; }
+          }
+        } // 読みやすいかどうかは、別…
+
+        &:nth-child(-n+3) a::after { // ランキング1~3は中の文字色も変わる
+          color: white;
+          font-weight: normal;
+        }
+      }
+    }
+
+    .documents {
+      margin: 10px 10px $margin-bottom; // お手本チラ見した
+
+      &, & ul {
+        list-style-type: none;
+      }
+
+      & > li .title {
+        margin: 15px 0; // お手本チラ見した
+        padding-left: 8px; // お手本チラ見した
+        font-size: 1.4rem;
+        line-height: 1.2;
+        border-left: 5px solid $red-color;
+      }
+
+      & > li + li { // ここの書き方だけ、どうしても分からなくて答え見た
+        margin-top: 25px;
+      }
+
+      & > li > ul {
+        margin: 15px; // お手本チラ見した
+
+        li {
+          list-style-type: none;
+          margin-bottom: 15px; // お手本チラ見した
+          padding-left: 10px; // お手本チラ見した
+          background: url("../../images/arrow.gif") no-repeat left center;
+
+          a:hover {
+            text-decoration: underline; // underlineが出てこなくてググった
+          }
+        }
+      }
+    }
+
+
+    .search-box {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      background-color: $gray-background-color;
+
+      & * {
+        font-size: 1.2rem;
+      }
+
+      .search-input {
+        width: 205px; // お手本チラ見した
+        height: 26px; // お手本チラ見した
+        border-style: none;
+        padding: 0 10px; // お手本チラ見した
+      }
+
+      .search-button {
+        width: 40px; // お手本チラ見した
+        height: 26px; // お手本チラ見した
+        background-color: $red-color;
+        color: white;
+        border-style: none;
+        cursor: pointer;
+      }
+
+      .text {
+        margin-top: 12px; // お手本チラ見した
+      }
+    }
   }
 }

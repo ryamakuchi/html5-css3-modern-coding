@@ -13,7 +13,7 @@ body {
 }
 
 a:link, a:visited, a:hover, a:active { // aタグを書いているうちに、aタグに指定しなければと気づいて、チラ見した。
-  color: $link-color;
+  color: $red-color;
   text-decoration: none;
 }
 
@@ -28,4 +28,7 @@ a:link, a:visited, a:hover, a:active { // aタグを書いているうちに、a
   content: '';
   display: block;
   clear: both;
+}
+.hidden {
+  display: none;
 }
