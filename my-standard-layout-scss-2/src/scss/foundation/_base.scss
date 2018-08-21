@@ -1,3 +1,22 @@
+// base
+*, *::before, *::after {
+  box-sizing: border-box; // これ忘れがち
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.1rem;
+}
+
+a, a:hover, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: $primary-red-color;
+}
+
+// parts
 .left {
   float: left;
 }
@@ -10,4 +29,8 @@
   content: '';
   clear: both;
   display: block;
+}
+
+.hidden {
+  display: none;
 }
