@@ -1,5 +1,36 @@
 .header {
   width: 100%;
-  background-color: #6e7b84; // 仮で
-  height: 100px; // 仮で
+  background: url("../../images/bg-header.gif") repeat-x;
+
+  .header-title {
+    display: block;
+    margin: 0 auto;
+    background: url("../../images/logo.png") no-repeat center;
+    padding-top: 100px;
+    width: 224px;
+    overflow: hidden;
+    text-indent: 224px;
+    white-space: nowrap; // 忘れかけそう
+  }
+
+  .nav {
+    display: block;
+    width: 100%;
+    box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    .nav-item {
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+
+    .active {
+      background-color: $primary-red-color;
+      color: #fff;
+    }
+  }
 }
