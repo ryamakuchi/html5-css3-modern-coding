@@ -1,0 +1,30 @@
+.search-box {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: $gray-background-color;
+
+  & * {
+    font-size: 1.2rem;
+  }
+
+  .search-input {
+    width: 205px; // お手本チラ見した
+    height: 26px; // お手本チラ見した
+    border-style: none;
+    padding: 0 10px; // お手本チラ見した
+  }
+
+  .search-button {
+    width: 40px; // お手本チラ見した
+    height: 26px; // お手本チラ見した
+    background-color: $red-color;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+  }
+
+  .text {
+    margin-top: 12px; // お手本チラ見した
+  }
+}
