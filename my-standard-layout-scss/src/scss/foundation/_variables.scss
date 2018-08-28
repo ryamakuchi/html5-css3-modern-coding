@@ -4,12 +4,12 @@ $main-width: 660px;
 
 $sidemenu-width: 275px;
 
-// ここらへんの値は基本的に覚えてなかったので、すべてチラ見した。
 // header
-$logo-width: 224px; // これの値だけお手本と違っていたが、落としてきたlogo.pngの横幅は224pxだったので、このままにしておく。
+$logo-width: 224px;
 $logo-height: 56px;
 $nav-width: 100px;
 $nav-height: 30px;
+$nav-button-border-radius: 8px;
 
 // main
 $hot-topic-height: 300px;

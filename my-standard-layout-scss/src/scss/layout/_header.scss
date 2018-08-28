@@ -1,17 +1,18 @@
 .header {
   width: 100%;
-  padding: 28px 0 10px; // ここのPX数はわからなかったので、デモページの値を見た
-  background: url("../../images/bg-header.gif") repeat-x; // repeat-xかx-repeatか不安だった
-  box-shadow: 0 0 10px 1px $box-shadow;
+  padding: 28px 0 10px;
+  background: url("../../images/bg-header.gif") repeat-x; // 忘れがちなので覚える
+  box-shadow: 0 0 10px 1px $box-shadow; // 忘れがちなので覚える
 
   .logo {
     width: $logo-width;
     height: $logo-height;
     margin: 0 auto;
     background: url("../../images/logo.png") no-repeat;
-    overflow: hidden; // このプロパティは、忘れていたのでチラ見した
-    white-space: nowrap; // 上と同じ
-    text-indent: 100%; // 上と同じ
+    // この3つはセットで覚える
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 100%;
 
     a {
       display: block;
@@ -22,11 +23,11 @@
 
   .global-nav {
     text-align: center;
-    margin-top: 15px; // ここのPX数はわからなかったので、デモページの値を見た
+    margin-top: 15px;
 
     .nav-item {
       display: inline-block;
-      margin: 0 10px; // 値だけ見た
+      margin: 0 10px;
 
       a {
         display: block;
@@ -35,14 +36,14 @@
         text-align: center;
         line-height: $nav-height;
         color: $header-nav-color;
-        font-size: 1.3rem; // 値だけ見た
+        font-size: 1.3rem;
         letter-spacing: $letter-spacing;
-        border-radius: 8px; // 値だけ見た
-        transition: $transition-time; // 値だけ見た、こういう値は、変数のほうが良い?
+        border-radius: $nav-button-border-radius; // こちらも変数に切り出した
+        transition: $transition-time;
       }
     }
     .active a, .nav-item a:hover {
-      color: white;
+      color: #fff; // 書き方は"#"のほうで統一する
       background-color: $red-color;
     }
   }

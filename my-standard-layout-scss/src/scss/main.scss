@@ -8,10 +8,23 @@
 
 @import "foundation/base";
 
+// layout
 @import "layout/header";
 
 @import "layout/footer";
 
 @import "layout/main";
 
-@import "layout/components";
+// main
+@import "components/hot-topic";
+
+@import "components/articles";
+
+@import "components/scroll-list";
+
+// sidemenu
+@import "components/ranking";
+
+@import "components/search-box";
+
+@import "components/documents";

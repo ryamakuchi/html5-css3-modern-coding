@@ -3,16 +3,16 @@ html {
 }
 
 body {
-  color: $text-color; // $text-colorを指定するのを忘れていた
-  font-size: 1.2rem; // これは、わからなくて、チラ見してしまった
-  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; // 自動補完で出ててきたやつだけど、合ってるかわからない。
+  color: $text-color;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
-*, *:before, *::after {
-  box-sizing: border-box; // chapter-2 の段階で指定するのを忘れていた
+*, *:before, *::after { // 忘れがちなので覚える
+  box-sizing: border-box;
 }
 
-a:link, a:visited, a:hover, a:active { // aタグを書いているうちに、aタグに指定しなければと気づいて、チラ見した。
+a:link, a:visited, a:hover, a:active { // 忘れがちなので覚える
   color: $red-color;
   text-decoration: none;
 }
@@ -24,11 +24,26 @@ a:link, a:visited, a:hover, a:active { // aタグを書いているうちに、a
 .right {
   float: right;
 }
-.clearfix::after { // これの定型文忘れてたので、チラ見。
+.clearfix::after { // 忘れがちなので覚える
   content: '';
   display: block;
   clear: both;
 }
 .hidden {
   display: none;
+}
+
+.heading {
+  background: url("../../images/bg-slash.gif");
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  padding: 10px 12px;
+}
+
+.shine {
+  transition: opacity $transition-time;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
