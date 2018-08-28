@@ -1,0 +1,55 @@
+.articles {
+
+  .article-box {
+    display: block;
+    position: relative;
+    width: $article-box-width;
+    height: $article-box-height;
+    box-shadow: $article-box-shadow;
+    margin-bottom: $margin-bottom;
+    float: left;
+    padding: $article-box-padding;
+
+    .image {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    .title {
+      margin-top: 30px; // お手本チラ見した
+      font-size: 1.4rem; // お手本チラ見した
+      line-height: 1.6; // お手本チラ見した
+      color: $article-title-color;
+    }
+
+    .desc {
+      margin-top: 5px; // お手本チラ見した
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: $text-color;
+    }
+
+    .date {
+      display: block;
+      position: absolute;
+      bottom: 15px;
+      right: 0;
+      width: 160px; // お手本チラ見した
+      padding: 4px; // お手本チラ見した
+      background-color: $green-color;
+      color: $blue-color;
+      text-align: center;
+      font-size: 1.1rem; // お手本チラ見した
+      font-weight: bold;
+      letter-spacing: $letter-spacing;
+    }
+
+    &:nth-child(even) {
+      float: right;
+    }
+  }
+}

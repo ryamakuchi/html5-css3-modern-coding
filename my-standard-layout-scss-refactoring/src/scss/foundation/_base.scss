@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $text-color;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+*, *:before, *::after { // 忘れがちなので覚える
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active { // 忘れがちなので覚える
+  color: $red-color;
+  text-decoration: none;
+}
+
+//parts
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after { // 忘れがちなので覚える
+  content: '';
+  display: block;
+  clear: both;
+}
+.hidden {
+  display: none;
+}
+
+.heading {
+  background: url("../../images/bg-slash.gif");
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  padding: 10px 12px;
+}
+
+.shine {
+  transition: opacity $transition-time;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
