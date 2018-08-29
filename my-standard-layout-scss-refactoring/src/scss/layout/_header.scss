@@ -4,7 +4,7 @@
   background: url("../../images/bg-header.gif") repeat-x; // 忘れがちなので覚える
   box-shadow: 0 0 10px 1px $box-shadow; // 忘れがちなので覚える
 
-  .logo {
+  &__logo {
     width: $logo-width;
     height: $logo-height;
     margin: 0 auto;
@@ -21,7 +21,7 @@
     }
   }
 
-  .global-nav {
+  &__global-nav {
     text-align: center;
     margin-top: 15px;
 
@@ -42,6 +42,7 @@
         transition: $transition-time;
       }
     }
+
     .active a, .nav-item a:hover {
       color: #fff; // 書き方は"#"のほうで統一する
       background-color: $red-color;
