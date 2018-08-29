@@ -4,7 +4,7 @@
   width: 100%;
   margin-bottom: $margin-bottom;
 
-  .content {
+  &__content {
     position: relative;
     width: 50%;
     height: 100%;
@@ -33,7 +33,7 @@
       font-size: 1.1rem;
       line-height: 1.9rem; // お手本と違う書き方をしてみた
       letter-spacing: $letter-spacing;
-      background-color: white;
+      background-color: #fff;
       color: $blue-color;
     }
   }

@@ -1,10 +1,10 @@
 .footer {
   width: 100%;
   padding: 20px 0 30px;
-  background: $blue-color url("../../images/bg-footer.gif"); // この画像は縦横どっちにもrepeatするものだった
+  background: $blue-color url("../../images/bg-footer.gif"); // この画像は縦横どっちにもrepeatする
   color: white;
 
-  .horizontal-list {
+  &__horizontal-list {
     width: $wrapper-width;
     margin: 0 auto;
     text-align: right;
@@ -13,17 +13,17 @@
     .horizontal-item {
       display: inline-block;
       padding: 0 15px;
-      letter-spacing: $letter-spacing; //   letter-spacingは個別に付けないと、余白にも影響してくる
+      letter-spacing: $letter-spacing; // letter-spacingは個別に付けないと、余白にも影響してくる
 
-      & + .horizontal-item { // 隣接するhorizontal-itemがある場合の左側にだけ、borderをつけることにした
+      & + .horizontal-item { // 隣接するhorizontal-itemがある場合の左側にだけ、borderをつける
         border-left: 1px solid $footer-nav-color;
       }
 
       a {
         color: $footer-nav-color;
         font-size: 1.1rem;
-        border-bottom: 1px dashed #777; // ここの書き方覚えていなかったのでチラ見
-        transition: color $transition-time; // ここもheaderと同じ値だったので変数化した
+        border-bottom: 1px dashed #777; // dashedを覚える
+        transition: color $transition-time;
 
         &:hover {
           color: $footer-nav-hover;
@@ -32,7 +32,7 @@
     }
   }
 
-  .copyright {
+  &__copyright {
     text-align: center;
     margin-top: 30px;
     letter-spacing: $letter-spacing;
