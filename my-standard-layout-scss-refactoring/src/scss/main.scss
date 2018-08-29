@@ -19,9 +19,11 @@
 // main
 @import "components/hot-topic";
 
-@import "components/articles";
+@import "components/news";
 
-@import "components/scroll-list";
+@import "components/news-item";
+
+@import "components/articles";
 
 // sidemenu
 @import "components/ranking";

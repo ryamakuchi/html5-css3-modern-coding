@@ -11,30 +11,30 @@
     padding: 105px 25px 0; // お手本チラ見した
     background-color: $blue-color;
     line-height: $line-height;
+  }
 
-    .title {
-      color: white;
-      font-size: $hot-topic-title;
-      font-weight: lighter;
-    }
+  &__title {
+    color: white;
+    font-size: $hot-topic-title;
+    font-weight: lighter;
+  }
 
-    .desc {
-      color: #ddc;
-      padding: 15px 0;
-    }
+  &__desc {
+    color: #ddc;
+    padding: 15px 0;
+  }
 
-    .date {
-      position: absolute;
-      top: 60px; // お手本チラ見した
-      left: 0;
-      width: 140px; // お手本チラ見した
-      text-align: center;
-      font-weight: bold;
-      font-size: 1.1rem;
-      line-height: 1.9rem; // お手本と違う書き方をしてみた
-      letter-spacing: $letter-spacing;
-      background-color: #fff;
-      color: $blue-color;
-    }
+  &__date {
+    position: absolute;
+    top: 60px; // お手本チラ見した
+    left: 0;
+    width: 140px; // お手本チラ見した
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.9rem; // お手本と違う書き方をしてみた
+    letter-spacing: $letter-spacing;
+    background-color: #fff;
+    color: $blue-color;
   }
 }

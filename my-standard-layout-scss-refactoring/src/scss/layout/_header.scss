@@ -41,11 +41,11 @@
         border-radius: $nav-button-border-radius; // こちらも変数に切り出した
         transition: $transition-time;
       }
-    }
 
-    .active a, .nav-item a:hover {
-      color: #fff; // 書き方は"#"のほうで統一する
-      background-color: $red-color;
+      &--active a, & a:hover { // BEMで書きなおした
+        color: #fff; // 書き方は"#"のほうで統一する
+        background-color: $red-color;
+      }
     }
   }
 }

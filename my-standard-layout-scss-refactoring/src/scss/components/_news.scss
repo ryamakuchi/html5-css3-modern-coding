@@ -1,0 +1,20 @@
+.news {
+  overflow-y: auto;
+  max-height: 220px; // お手本チラ見した
+  margin-bottom: $margin-bottom;
+
+  &__item a {
+    display: block;
+    padding: 10px 15px; // お手本チラ見した
+    color: $text-color;
+    font-size: 0; // なんか変な隙間があるなぁと思ったら、inline-blockのときにこれつけるの忘れてた
+  }
+
+  &__item:nth-child(even) a {
+    background: url("../../images/bg-slash.gif");
+  }
+
+  &__item a:hover {
+    background-color: $scroll-item-hover;
+  }
+}

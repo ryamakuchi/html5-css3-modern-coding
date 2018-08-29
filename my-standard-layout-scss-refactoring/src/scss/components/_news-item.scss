@@ -1,0 +1,35 @@
+.news {
+  &__date {
+    display: inline-block;
+    width: $news-date-width;
+    font-weight: bold;
+    font-size: 1.0rem; // お手本チラ見した
+    letter-spacing: $letter-spacing;
+  }
+
+  &__category {
+    display: inline-block;
+    width: $news-category-width;
+    color: white;
+    text-align: center;
+    letter-spacing: $letter-spacing;
+    font-size: 1.0rem;
+    line-height: 16px; // お手本チラ見した
+    border-radius: 5px; // お手本チラ見した
+    background-color: $red-color;
+
+    &--news {
+      background-color: $blue-color;
+    }
+  }
+
+  &__title {
+    display: inline-block;
+    width: calc(100% - (#{$news-date-width} + #{$news-category-width}));
+    font-size: 1.2rem; // お手本チラ見した
+    padding-left: 15px; // お手本チラ見した
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
