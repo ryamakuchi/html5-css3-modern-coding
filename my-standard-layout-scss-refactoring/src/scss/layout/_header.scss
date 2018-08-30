@@ -49,7 +49,7 @@ $header-nav-color: #666;
         transition: $transition-time;
       }
 
-      &--active a, & a:hover { // BEMで書きなおした
+      &--is-active a, & a:hover { // BEMで書きなおした
         color: #fff; // colorの書き方は"#"のほうで統一する
         background-color: $red-color;
       }
