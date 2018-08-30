@@ -1,3 +1,10 @@
+$nav-width: 100px;
+$nav-height: 30px;
+$nav-button-border-radius: 8px;
+
+// color
+$header-nav-color: #666;
+
 .header {
   width: 100%;
   padding: 28px 0 10px;
@@ -5,8 +12,8 @@
   box-shadow: 0 0 10px 1px $box-shadow; // 忘れがちなので覚える
 
   &__logo {
-    width: $logo-width;
-    height: $logo-height;
+    width: 224px;
+    height: 56px;
     margin: 0 auto;
     background: url("../../images/logo.png") no-repeat;
     // この3つはセットで覚える
@@ -21,7 +28,7 @@
     }
   }
 
-  &__global-nav {
+  .global-nav {
     text-align: center;
     margin-top: 15px;
 
@@ -38,12 +45,12 @@
         color: $header-nav-color;
         font-size: 1.3rem;
         letter-spacing: $letter-spacing;
-        border-radius: $nav-button-border-radius; // こちらも変数に切り出した
+        border-radius: $nav-button-border-radius; // 正確な数値がわからないので、変数にしておく
         transition: $transition-time;
       }
 
       &--active a, & a:hover { // BEMで書きなおした
-        color: #fff; // 書き方は"#"のほうで統一する
+        color: #fff; // colorの書き方は"#"のほうで統一する
         background-color: $red-color;
       }
     }
