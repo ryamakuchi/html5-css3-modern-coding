@@ -64,9 +64,15 @@ $ranking-order-height: 18px;
         font-weight: normal;
         line-height: $ranking-order-height; // これつけないとborderの幅の関係で真ん中にならない。もっといい方法は。
 
-        @if $i == 1 { background-color: #dab413; }
-        @if $i == 2 { background-color: #6e7b84; }
-        @if $i == 3 { background-color: #a0541a; }
+        @if $i == 1 {
+          background-color: #dab413;
+        }
+        @if $i == 2 {
+          background-color: #6e7b84;
+        }
+        @if $i == 3 {
+          background-color: #a0541a;
+        }
       }
     }
   }
