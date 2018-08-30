@@ -1,22 +1,22 @@
-$article-box-width: 315px;
-$article-box-height: 360px;
-$article-box-padding: 210px 15px 0;
-$article-box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
+$articles-box-width: 315px;
+$articles-box-height: 360px;
+$articles-box-padding: 210px 15px 0;
+$articles-box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
 
 // color
-$article-title-color: #555;
+$articles-title-color: #555;
 
-.article {
+.articles {
 
   &__box {
     display: block;
     position: relative;
-    width: $article-box-width;
-    height: $article-box-height;
-    box-shadow: $article-box-shadow;
+    width: $articles-box-width;
+    height: $articles-box-height;
+    box-shadow: $articles-box-shadow;
     margin-bottom: $margin-bottom;
     float: left;
-    padding: $article-box-padding;
+    padding: $articles-box-padding;
 
     &:nth-child(even) {
       float: right;
@@ -36,7 +36,7 @@ $article-title-color: #555;
     margin-top: 30px;
     font-size: 1.4rem;
     line-height: $line-height;
-    color: $article-title-color;
+    color: $articles-title-color;
   }
 
   &__description {

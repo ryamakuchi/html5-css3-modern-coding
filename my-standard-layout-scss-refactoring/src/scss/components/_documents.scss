@@ -1,7 +1,7 @@
-$document-margin: 10px 10px $margin-bottom; // これ覚えられないので変数化した
+$documents-margin: 10px 10px $margin-bottom; // これ覚えられないので変数化した
 
-.document {
-  margin: $document-margin;
+.documents {
+  margin: $documents-margin;
 
   &, & ul { // documentもulタグなので、自分もその子供も "・" を消す
     list-style-type: none; // これ忘れがちですわ
