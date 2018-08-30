@@ -1,0 +1,38 @@
+$document-margin: 10px 10px $margin-bottom; // これ覚えられないので変数化した
+
+.document {
+  margin: $document-margin;
+
+  &, & ul { // documentもulタグなので、自分もその子供も "・" を消す
+    list-style-type: none; // これ忘れがちですわ
+  }
+
+  &__group {
+
+    &__title {
+      margin: 15px 0;
+      padding-left: 8px;
+      font-size: 1.4rem;
+      line-height: 1.2;
+      border-left: 5px solid $red-color;
+    }
+
+    & + & {
+      margin-top: 25px;
+    }
+
+    & > ul {
+      margin: 15px;
+    }
+
+    &__list {
+      margin-bottom: 15px;
+      padding-left: 10px;
+      background: url("../../images/arrow.gif") no-repeat left center;
+
+      a:hover {
+        text-decoration: underline; // underlineも覚えよう
+      }
+    }
+  }
+}

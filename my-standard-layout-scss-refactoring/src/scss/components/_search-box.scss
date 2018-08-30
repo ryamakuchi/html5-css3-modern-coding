@@ -3,28 +3,25 @@
   width: 100%;
   padding: 15px;
   background-color: $gray-background-color;
+  font-size: 1.2rem;
 
-  & * {
-    font-size: 1.2rem;
-  }
-
-  .search-input {
-    width: 205px; // お手本チラ見した
-    height: 26px; // お手本チラ見した
+  &__input {
+    width: 205px;
+    height: 26px;
     border-style: none;
-    padding: 0 10px; // お手本チラ見した
+    padding: 0 10px;
   }
 
-  .search-button {
-    width: 40px; // お手本チラ見した
-    height: 26px; // お手本チラ見した
+  &__button {
+    width: 40px;
+    height: 26px;
     background-color: $red-color;
     color: white;
     border-style: none;
     cursor: pointer;
   }
 
-  .text {
-    margin-top: 12px; // お手本チラ見した
+  &__text {
+    margin-top: 12px;
   }
 }
