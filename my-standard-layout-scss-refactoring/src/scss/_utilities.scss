@@ -19,13 +19,6 @@ a:link, a:visited, a:hover, a:active { // 忘れがちなので覚える
   display: none;
 }
 
-.heading {
-  background: url("../images/bg-slash.gif");
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  padding: 10px 12px;
-}
-
 .shine {
   transition: opacity $transition-time;
 
