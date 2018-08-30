@@ -1,20 +1,65 @@
+$news-max-height: 220px;
+$news-date-width: 19%;
+$news-category-width: 8%;
+$news-category-line: 16px;
+$news-category-radius: 5px;
+
+// color
+$scroll-item-hover: #fafaf8;
+
 .news {
   overflow-y: auto;
-  max-height: 220px; // お手本チラ見した
+  max-height: $news-max-height; // 変数にしないとここは測れないかも…と思ったので
   margin-bottom: $margin-bottom;
 
   &__item a {
     display: block;
-    padding: 10px 15px; // お手本チラ見した
+    padding: 10px 15px;
     color: $text-color;
-    font-size: 0; // なんか変な隙間があるなぁと思ったら、inline-blockのときにこれつけるの忘れてた
+    font-size: 0;
   }
 
-  &__item:nth-child(even) a {
+  &__item:nth-child(even) a { // aタグに対してつけてあげるのを忘れないように
     background: url("../../images/bg-slash.gif");
   }
 
   &__item a:hover {
     background-color: $scroll-item-hover;
+  }
+
+  // ここからは、.news__item__hoge になる。でも長くなるしコード汚染の心配がないので名前を短くした。
+  &__date {
+    display: inline-block;
+    width: $news-date-width;
+    font-weight: bold;
+    font-size: 1.0rem;
+    letter-spacing: $letter-spacing;
+  }
+
+  &__category {
+    display: inline-block;
+    width: $news-category-width;
+    color: white;
+    text-align: center;
+    letter-spacing: $letter-spacing;
+    font-size: 1.0rem;
+    line-height: $news-category-line;
+    border-radius: $news-category-radius;
+    background-color: $red-color;
+
+    &--news {
+      background-color: $blue-color;
+    }
+  }
+
+  &__title {
+    display: inline-block;
+    width: calc(100% - (#{$news-date-width} + #{$news-category-width}));
+    font-size: 1.2rem;
+    padding-left: 15px;
+    // この3つは一緒に覚える
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 }
