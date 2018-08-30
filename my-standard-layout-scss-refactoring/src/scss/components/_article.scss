@@ -1,0 +1,17 @@
+.article {
+
+  &__box {
+    display: block;
+    position: relative;
+    width: $article-box-width;
+    height: $article-box-height;
+    box-shadow: $article-box-shadow;
+    margin-bottom: $margin-bottom;
+    float: left;
+    padding: $article-box-padding;
+
+    &:nth-child(even) {
+      float: right;
+    }
+  }
+}
