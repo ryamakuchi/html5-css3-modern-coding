@@ -1,4 +1,5 @@
 $ranking-text-width: 182px;
+$ranking-order-height: 18px;
 
 .ranking {
   margin-bottom: $margin-bottom;
@@ -27,51 +28,46 @@ $ranking-text-width: 182px;
     }
 
     &__image {
-      display: inline-block;
+      display: inline-block; // コレないと、インライン要素になっちゃう
       width: 55px;
       height: 55px;
     }
 
-    &::before {
-      content: "";
+    &__order {
+      display: inline-block; // コレないと、インライン要素になっちゃう
       position: absolute;
       top: 22px;
       left: calc(55px + 10px);
-      width: 18px; // お手本チラ見した
-      height: 18px; // お手本チラ見した
+      width: $ranking-order-height;
+      height: $ranking-order-height;
       border: 1px solid $gray-background-color;
-      transform: rotate(45deg);
-    }
-
-    &::after {
-      content: counter(ranking); // お手本チラ見した、覚えなきゃ!
-      counter-increment: ranking;
-      position: absolute;
-      top: 23px;
-      left: calc(55px + 10px);
-      width: 18px; // お手本チラ見した
-      height: 18px; // お手本チラ見した
       font-size: 1.0rem;
       text-align: center;
-      line-height: 16px; // お手本チラ見した
+      line-height: 16px;
       font-weight: bold;
       color: #aaa; // お手本チラ見した
+      transform: rotate(45deg);
+
+      &::before {
+        display: inline-block;
+        transform: rotate(-45deg);
+        content: counter(ranking); // お手本チラ見した、覚えなきゃ!
+        counter-increment: ranking;
+      }
     }
 
-    @for $i from 1 through 3 { // 少し、SCSSならではのことをしたくなって、繰り返しと分岐を入れてみた!
-
-      &:nth-child(#{$i}) a:before { // ランキング1~3の背景色を変える
+    // orderの1,2,3は、それぞれ金銀銅の色がつく
+    @for $i from 1 through 3 {
+      &:nth-child(#{$i}) &__order { // ランキング1~3の背景色を変える
         border: none;
+        color: white;
+        font-weight: normal;
+        line-height: $ranking-order-height; // これつけないとborderの幅の関係で真ん中にならない。もっといい方法は。
 
         @if $i == 1 { background-color: #dab413; }
         @if $i == 2 { background-color: #6e7b84; }
         @if $i == 3 { background-color: #a0541a; }
       }
-    } // 読みやすいかどうかは、別…
-
-    &:nth-child(-n+3) a::after { // ランキング1~3は中の文字色も変わる
-      color: white;
-      font-weight: normal;
     }
   }
 }
