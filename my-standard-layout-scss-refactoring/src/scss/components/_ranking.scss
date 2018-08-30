@@ -1,57 +1,61 @@
-.ranking {
-  list-style-type: none; // お手本チラ見した
-  counter-reset: ranking; // お手本チラ見した、覚えなきゃ!
-  margin-bottom: $margin-bottom;
+$ranking-text-width: 182px;
 
-  .ranking-item {
-    margin-top: 15px; // お手本チラ見した
+.ranking {
+  margin-bottom: $margin-bottom;
+  // この↓2つは忘れそうなので覚えておくこと
+  list-style-type: none;
+  counter-reset: ranking;
+
+  &__item {
+    margin-top: 15px;
 
     a {
       display: block;
       font-size: 0;
       position: relative;
+    }
 
-      .text {
-        display: inline-block;
-        width: $ranking-text-width;
-        margin-left: calc(#{$sidemenu-width} - (55px + #{$ranking-text-width}));
-        font-size: 1.2rem; // お手本チラ見した
-        color: black;
-        line-height: 1.5; // お手本チラ見した
-        vertical-align: top;
-      }
+    // この.ranking__item__hogeは、ちょっと冗長だけど、.ranking__textとか.ranking__imgとか出てきそうなのでキッチリ書く
+    &__text {
+      display: inline-block;
+      width: $ranking-text-width;
+      margin-left: calc(#{$sidemenu-width} - (55px + #{$ranking-text-width}));
+      font-size: 1.2rem;
+      color: black;
+      line-height: 1.5;
+      vertical-align: top;
+    }
 
-      .image {
-        display: inline-block;
-        width: 55px; // お手本チラ見した
-        height: 55px; // お手本チラ見した
-      }
+    &__image {
+      display: inline-block;
+      width: 55px;
+      height: 55px;
+    }
 
-      &::before {
-        content: "";
-        position: absolute;
-        top: 22px;
-        left: calc(55px + 10px);
-        width: 18px; // お手本チラ見した
-        height: 18px; // お手本チラ見した
-        border: 1px solid $gray-background-color;
-        transform: rotate(45deg);
-      }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 22px;
+      left: calc(55px + 10px);
+      width: 18px; // お手本チラ見した
+      height: 18px; // お手本チラ見した
+      border: 1px solid $gray-background-color;
+      transform: rotate(45deg);
+    }
 
-      &::after {
-        content: counter(ranking); // お手本チラ見した、覚えなきゃ!
-        counter-increment: ranking;
-        position: absolute;
-        top: 23px;
-        left: calc(55px + 10px);
-        width: 18px; // お手本チラ見した
-        height: 18px; // お手本チラ見した
-        font-size: 1.0rem;
-        text-align: center;
-        line-height: 16px; // お手本チラ見した
-        font-weight: bold;
-        color: #aaa; // お手本チラ見した
-      }
+    &::after {
+      content: counter(ranking); // お手本チラ見した、覚えなきゃ!
+      counter-increment: ranking;
+      position: absolute;
+      top: 23px;
+      left: calc(55px + 10px);
+      width: 18px; // お手本チラ見した
+      height: 18px; // お手本チラ見した
+      font-size: 1.0rem;
+      text-align: center;
+      line-height: 16px; // お手本チラ見した
+      font-weight: bold;
+      color: #aaa; // お手本チラ見した
     }
 
     @for $i from 1 through 3 { // 少し、SCSSならではのことをしたくなって、繰り返しと分岐を入れてみた!
