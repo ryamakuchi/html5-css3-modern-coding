@@ -1,5 +1,3 @@
-$articles-box-width: 315px;
-$articles-box-height: 360px;
 $articles-box-padding: 210px 15px 0;
 $articles-box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
 
@@ -11,8 +9,8 @@ $articles-title-color: #555;
   &__box {
     display: block;
     position: relative;
-    width: $articles-box-width;
-    height: $articles-box-height;
+    width: 315px;
+    height: 360px;
     box-shadow: $articles-box-shadow;
     margin-bottom: $margin-bottom;
     float: left;
@@ -42,10 +40,6 @@ $articles-title-color: #555;
   &__description {
     margin-top: 5px;
     color: $text-color;
-    // 3つセットで覚える
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
   }
 
   &__date {

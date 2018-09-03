@@ -57,9 +57,5 @@ $scroll-item-hover: #fafaf8;
     width: calc(100% - (#{$news-date-width} + #{$news-category-width}));
     font-size: 1.2rem;
     padding-left: 15px;
-    // この3つは一緒に覚える
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
   }
 }
