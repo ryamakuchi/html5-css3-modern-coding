@@ -39,7 +39,7 @@ $articles-title-color: #555;
 
   &__description {
     margin-top: 5px;
-    color: $text-color;
+    color: $primary-text-color;
   }
 
   &__date {
@@ -49,8 +49,8 @@ $articles-title-color: #555;
     right: 0;
     width: 160px;
     padding: 4px;
-    background-color: $green-color;
-    color: $blue-color;
+    background-color: $accent-color;
+    color: $primary-color;
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;

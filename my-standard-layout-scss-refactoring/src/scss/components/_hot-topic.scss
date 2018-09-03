@@ -1,3 +1,5 @@
+$description-text-color: #ddc;
+
 .hot-topic {
   display: block;
   height: 300px;
@@ -9,7 +11,7 @@
     width: 50%;
     height: 100%;
     padding: 105px 25px 0;
-    background-color: $blue-color;
+    background-color: $primary-color;
     line-height: $line-height;
   }
 
@@ -19,8 +21,8 @@
     font-weight: lighter;
   }
 
-  &__desc {
-    color: #ddc;
+  &__description {
+    color: $description-text-color;
     padding: 15px 0;
   }
 
@@ -35,6 +37,6 @@
     line-height: 1.9rem;
     letter-spacing: $letter-spacing;
     background-color: #fff;
-    color: $blue-color;
+    color: $primary-color;
   }
 }

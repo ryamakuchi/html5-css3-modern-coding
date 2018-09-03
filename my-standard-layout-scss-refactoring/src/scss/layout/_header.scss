@@ -51,7 +51,7 @@ $header-nav-color: #666;
 
       &--is-active a, & a:hover { // BEMで書きなおした
         color: #fff; // colorの書き方は"#"のほうで統一する
-        background-color: $red-color;
+        background-color: $secondary-color;
       }
     }
   }

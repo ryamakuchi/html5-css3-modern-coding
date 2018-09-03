@@ -5,7 +5,7 @@ $news-category-line: 16px;
 $news-category-radius: 5px;
 
 // color
-$scroll-item-hover: #fafaf8;
+$scroll-item-color--is-hover: #fafaf8;
 
 .news {
   overflow-y: auto;
@@ -15,7 +15,7 @@ $scroll-item-hover: #fafaf8;
   &__item a {
     display: block;
     padding: 10px 15px;
-    color: $text-color;
+    color: $primary-text-color;
     font-size: 0;
   }
 
@@ -24,7 +24,7 @@ $scroll-item-hover: #fafaf8;
   }
 
   &__item a:hover {
-    background-color: $scroll-item-hover;
+    background-color: $scroll-item-color--is-hover;
   }
 
   // ここからは、.news__item__hoge になる。でも長くなるしコード汚染の心配がないので名前を短くした。
@@ -45,10 +45,10 @@ $scroll-item-hover: #fafaf8;
     font-size: 1.0rem;
     line-height: $news-category-line;
     border-radius: $news-category-radius;
-    background-color: $red-color;
+    background-color: $secondary-color;
 
     &--is-news {
-      background-color: $blue-color;
+      background-color: $primary-color;
     }
   }
 

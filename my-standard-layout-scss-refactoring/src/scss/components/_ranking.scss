@@ -1,6 +1,9 @@
 $ranking-text-width: 182px;
 $ranking-order-height: 18px;
 
+// color
+$ranking-order-primary-color: #aaa;
+
 .ranking {
   margin-bottom: $margin-bottom;
   // この↓2つは忘れそうなので覚えておくこと
@@ -40,12 +43,12 @@ $ranking-order-height: 18px;
       left: calc(55px + 10px);
       width: $ranking-order-height;
       height: $ranking-order-height;
-      border: 1px solid $gray-background-color;
+      border: 1px solid $secondary-background-color;
       font-size: 1.0rem;
       text-align: center;
       line-height: 16px;
       font-weight: bold;
-      color: #aaa; // お手本チラ見した
+      color: $ranking-order-primary-color;
       transform: rotate(45deg);
 
       &::before {
