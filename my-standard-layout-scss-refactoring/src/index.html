@@ -22,54 +22,58 @@
 
   <div class="wrapper clearfix">
     <main class="main left">
+      <section class="hot-topic clearfix shine">
+        <h2 class="hidden">HOT TOPIC</h2>
+        <a href="#">
+          <img class="left" src="images/hot-topic.jpg" alt="hot topic 画像">
 
-      <h2 class="hidden">HOT TOPIC</h2>
-      <a href="#" class="hot-topic clearfix shine">
-        <img class="left" src="images/hot-topic.jpg" alt="hot topic 画像">
+          <div class="hot-topic__content right">
+            <h3 class="hot-topic__title">実務で使えるHTML/CSS<br>モダンコーディングTIPS</h3>
+            <p class="hot-topic__description">Webフロントエンドの進化の勢いはとどまるところを知りません。新しい要素が増えて大幅に表現力が広がったHTML5/CSS3を活用して...</p>
+            <time class="hot-topic__date" datetime="2018-08-16">2018.08.16 THU</time>
+          </div>
+        </a>
+      </section>
 
-        <div class="hot-topic__content right">
-          <h3 class="hot-topic__title">実務で使えるHTML/CSS<br>モダンコーディングTIPS</h3>
-          <p class="hot-topic__description">Webフロントエンドの進化の勢いはとどまるところを知りません。新しい要素が増えて大幅に表現力が広がったHTML5/CSS3を活用して...</p>
-          <time class="hot-topic__date" datetime="2018-08-16">2018.08.16 THU</time>
-        </div>
-      </a>
+      <section class="news">
+        <h2 class="heading">NEWS</h2>
+        <ul>
+          <li class="news__item"><a href="#">
+            <time class="news__date" datetime="2018-08-07">2018.08.07 TUE</time>
+            <span class="news__category news__category--is-news">NEWS</span>
+            <span class="news__title ellipsis">WORKSを更新しました。</span>
+          </a></li>
+          <li class="news__item"><a href="#">
+            <time class="news__date" datetime="2018-08-06">2018.08.06 MON</time>
+            <span class="news__category">TOPIC</span>
+            <span class="news__title ellipsis">CSSでここまでできる！？ホントに使えるCSSセレクタ10選！</span>
+          </a></li>
+          <li class="news__item"><a href="#">
+            <time class="news__date" datetime="2018-08-04">2018.08.04 TUE</time>
+            <span class="news__category news__category--is-news">NEWS</span>
+            <span class="news__title ellipsis">TOPICSを更新しました。</span>
+          </a></li>
+          <li class="news__item"><a href="#">
+            <time class="news__date" datetime="2018-07-25">2018.07.25 SAT</time>
+            <span class="news__category">TOPIC</span>
+            <span class="news__title ellipsis">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</span>
+          </a></li>
+          <li class="news__item"><a href="#">
+            <time class="news__date" datetime="2018-07-09">2018.07.09 THU</time>
+            <span class="news__category">TOPIC</span>
+            <span class="news__title ellipsis">HTML5の新しい属性で手軽にフォームバリデーション</span>
+          </a></li>
+          <li class="news__item"><a href="#">
+            <time class="news__date" datetime="2018-06-30">2018.06.30 TUE</time>
+            <span class="news__category news__category--is-news">NEWS</span>
+            <span class="news__title ellipsis">WORKSを更新しました。</span>
+          </a></li>
+        </ul>
+      </section>
 
-      <h2 class="heading">NEWS</h2>
-      <ul class="news">
-        <li class="news__item"><a href="#">
-          <time class="news__date" datetime="2018-08-07">2018.08.07 TUE</time>
-          <span class="news__category news__category--is-news">NEWS</span>
-          <span class="news__title ellipsis">WORKSを更新しました。</span>
-        </a></li>
-        <li class="news__item"><a href="#">
-          <time class="news__date" datetime="2018-08-06">2018.08.06 MON</time>
-          <span class="news__category">TOPIC</span>
-          <span class="news__title ellipsis">CSSでここまでできる！？ホントに使えるCSSセレクタ10選！</span>
-        </a></li>
-        <li class="news__item"><a href="#">
-          <time class="news__date" datetime="2018-08-04">2018.08.04 TUE</time>
-          <span class="news__category news__category--is-news">NEWS</span>
-          <span class="news__title ellipsis">TOPICSを更新しました。</span>
-        </a></li>
-        <li class="news__item"><a href="#">
-          <time class="news__date" datetime="2018-07-25">2018.07.25 SAT</time>
-          <span class="news__category">TOPIC</span>
-          <span class="news__title ellipsis">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</span>
-        </a></li>
-        <li class="news__item"><a href="#">
-          <time class="news__date" datetime="2018-07-09">2018.07.09 THU</time>
-          <span class="news__category">TOPIC</span>
-          <span class="news__title ellipsis">HTML5の新しい属性で手軽にフォームバリデーション</span>
-        </a></li>
-        <li class="news__item"><a href="#">
-          <time class="news__date" datetime="2018-06-30">2018.06.30 TUE</time>
-          <span class="news__category news__category--is-news">NEWS</span>
-          <span class="news__title ellipsis">WORKSを更新しました。</span>
-        </a></li>
-      </ul>
+      <section class="articles clearfix">
 
-      <h2 class="hidden">ARTICLES</h2>
-      <div class="articles clearfix">
+        <h2 class="hidden">ARTICLES</h2>
         <a href="#" class="articles__box shine">
           <h3 class="articles__title">実務で使えるHTML/CSSモダンコーディングTIPS</h3>
           <p class="articles__description ellipsis">新しい要素が増えて大幅に表現力が広がったHTML5/CSS3を活用し、モダンなコーディングにチャレンジしましょう！</p>
@@ -97,119 +101,122 @@
           <img class="articles__image" src="images/article.jpg" alt="コーディング画面">
         </a>
 
-      </div>
+      </section>
     </main>
 
     <div class="sidemenu right">
+      <section class="ranking">
+        <h2 class="heading">RANKING</h2>
+        <ol>
+          <li class="ranking__item">
+            <a href="#" class="shine">
+              <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
+              <span class="ranking__item__order"></span>
+              <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
+            </a>
+          </li>
 
-      <h2 class="heading">RANKING</h2>
-      <ol class="ranking">
+          <li class="ranking__item">
+            <a href="#" class="shine">
+              <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
+              <span class="ranking__item__order"></span>
+              <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
+            </a>
+          </li>
 
-        <li class="ranking__item">
-          <a href="#" class="shine">
-            <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
-            <span class="ranking__item__order"></span>
-            <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
+          <li class="ranking__item">
+            <a href="#" class="shine">
+              <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
+              <span class="ranking__item__order"></span>
+              <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
+            </a>
+          </li>
 
-        <li class="ranking__item">
-          <a href="#" class="shine">
-            <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
-            <span class="ranking__item__order"></span>
-            <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
+          <li class="ranking__item">
+            <a href="#" class="shine">
+              <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
+              <span class="ranking__item__order"></span>
+              <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
+            </a>
+          </li>
 
-        <li class="ranking__item">
-          <a href="#" class="shine">
-            <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
-            <span class="ranking__item__order"></span>
-            <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
+          <li class="ranking__item">
+            <a href="#" class="shine">
+              <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
+              <span class="ranking__item__order"></span>
+              <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
+            </a>
+          </li>
 
-        <li class="ranking__item">
-          <a href="#" class="shine">
-            <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
-            <span class="ranking__item__order"></span>
-            <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
+          <li class="ranking__item">
+            <a href="#" class="shine">
+              <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
+              <span class="ranking__item__order"></span>
+              <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
+            </a>
+          </li>
 
-        <li class="ranking__item">
-          <a href="#" class="shine">
-            <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
-            <span class="ranking__item__order"></span>
-            <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
+          <li class="ranking__item">
+            <a href="#" class="shine">
+              <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
+              <span class="ranking__item__order"></span>
+              <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
+            </a>
+          </li>
+        </ol>
+      </section>
 
-        <li class="ranking__item">
-          <a href="#" class="shine">
-            <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
-            <span class="ranking__item__order"></span>
-            <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
+      <section class="documents">
+        <h2 class="heading">DOCUMENTS</h2>
+        <ul>
+          <li class="documents__group">
+            <h3 class="documents__group__title">HTML5</h3>
+            <ul>
+              <li class="documents__group__list"><a href="#">追加された要素</a></li>
+              <li class="documents__group__list"><a href="#">削除された要素</a></li>
+              <li class="documents__group__list"><a href="#">意味が変わった要素</a></li>
+              <li class="documents__group__list"><a href="#">HTML5のコンテンツモデル</a></li>
+            </ul>
+          </li>
 
-        <li class="ranking__item">
-          <a href="#" class="shine">
-            <img class="ranking__item__image" src="images/ranking.jpg" alt="グラフの画像">
-            <span class="ranking__item__order"></span>
-            <p class="ranking__item__text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
-      </ol>
+          <li class="documents__group">
+            <h3 class="documents__group__title">CSS3</h3>
+            <ul>
+              <li class="documents__group__list"><a href="#">追加されたプロパティ</a></li>
+              <li class="documents__group__list"><a href="#">追加されたセレクタ</a></li>
+              <li class="documents__group__list"><a href="#">追加された単位</a></li>
+            </ul>
+          </li>
 
-      <h2 class="heading">DOCUMENTS</h2>
-      <ul class="documents">
+          <li class="documents__group">
+            <h3 class="documents__group__title">JavaScript</h3>
+            <ul>
+              <li class="documents__group__list"><a href="#">JavaScriptの言語仕様</a></li>
+              <li class="documents__group__list"><a href="#">ECMAScriptとは？</a></li>
+              <li class="documents__group__list"><a href="#">jQueryとは？</a></li>
+            </ul>
+          </li>
 
-        <li class="documents__group">
-          <h3 class="documents__group__title">HTML5</h3>
-          <ul>
-            <li class="documents__group__list"><a href="#">追加された要素</a></li>
-            <li class="documents__group__list"><a href="#">削除された要素</a></li>
-            <li class="documents__group__list"><a href="#">意味が変わった要素</a></li>
-            <li class="documents__group__list"><a href="#">HTML5のコンテンツモデル</a></li>
-          </ul>
-        </li>
+          <li class="documents__group">
+            <h3 class="documents__group__title">Sass, Less, Stylus</h3>
+            <p>準備中</p>
+          </li>
 
-        <li class="documents__group">
-          <h3 class="documents__group__title">CSS3</h3>
-          <ul>
-            <li class="documents__group__list"><a href="#">追加されたプロパティ</a></li>
-            <li class="documents__group__list"><a href="#">追加されたセレクタ</a></li>
-            <li class="documents__group__list"><a href="#">追加された単位</a></li>
-          </ul>
-        </li>
+          <li class="documents__group">
+            <h3 class="documents__group__title">TypeScript</h3>
+            <p>準備中</p>
+          </li>
+        </ul>
+      </section>
 
-        <li class="documents__group">
-          <h3 class="documents__group__title">JavaScript</h3>
-          <ul>
-            <li class="documents__group__list"><a href="#">JavaScriptの言語仕様</a></li>
-            <li class="documents__group__list"><a href="#">ECMAScriptとは？</a></li>
-            <li class="documents__group__list"><a href="#">jQueryとは？</a></li>
-          </ul>
-        </li>
-
-        <li class="documents__group">
-          <h3 class="documents__group__title">Sass, Less, Stylus</h3>
-          <p>準備中</p>
-        </li>
-
-        <li class="documents__group">
-          <h3 class="documents__group__title">TypeScript</h3>
-          <p>準備中</p>
-        </li>
-      </ul>
-
-      <h2 class="hidden">SEARCH</h2>
-      <form class="search-box">
-        <input class="search-box__input" type="text" name="search" placeholder="SEARCH">
-        <input class="search-box__button right" type="submit" value="検索">
-        <p class="search-box__text">サイト内の文章を検索できます。</p>
-      </form>
+      <section class="search-box">
+        <h2 class="hidden">SEARCH</h2>
+        <form>
+          <input class="search-box__input" type="text" name="search" placeholder="SEARCH">
+          <input class="search-box__button right" type="submit" value="検索">
+          <p class="search-box__text">サイト内の文章を検索できます。</p>
+        </form>
+      </section>
 
     </div>
   </div>

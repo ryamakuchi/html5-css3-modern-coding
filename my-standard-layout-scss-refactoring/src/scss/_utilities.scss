@@ -18,11 +18,15 @@ a:link, a:visited, a:hover, a:active { // 忘れがちなので覚える
 .hidden {
   display: none;
 }
-
 .shine {
   transition: opacity $transition-time;
 
   &:hover {
     opacity: 0.8;
   }
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }

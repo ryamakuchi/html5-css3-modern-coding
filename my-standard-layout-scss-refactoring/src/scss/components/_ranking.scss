@@ -5,10 +5,12 @@ $ranking-order-height: 18px;
 $ranking-order-primary-color: #aaa;
 
 .ranking {
-  margin-bottom: $margin-bottom;
-  // この↓2つは忘れそうなので覚えておくこと
-  list-style-type: none;
-  counter-reset: ranking;
+  ol {
+    margin-bottom: $margin-bottom;
+    // この↓2つは忘れそうなので覚えておくこと
+    list-style-type: none;
+    counter-reset: ranking;
+  }
 
   &__item {
     margin-top: 15px;
