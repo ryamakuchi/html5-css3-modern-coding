@@ -1,0 +1,32 @@
+a:link, a:visited, a:hover, a:active { // 忘れがちなので覚える
+  color: $secondary-color;
+  text-decoration: none;
+}
+
+//parts
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after { // 忘れがちなので覚える
+  content: '';
+  display: block;
+  clear: both;
+}
+.hidden {
+  display: none;
+}
+.shine {
+  transition: opacity $transition-time;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+// foundation
+@import "foundation/colors";
+
+@import "foundation/variables";
+
+@import "foundation/reset";
+
+@import "foundation/typography";
+
+// utilities
+@import "utilities";
+
+// layout
+@import "layout/header";
+
+@import "layout/footer";
+
+@import "layout/main";
+
+// main
+@import "components/hot-topic";
+
+@import "components/news";
+
+@import "components/articles";
+
+// sidemenu
+@import "components/ranking";
+
+@import "components/documents";
+
+@import "components/search-box";

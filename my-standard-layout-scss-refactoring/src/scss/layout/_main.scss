@@ -1,0 +1,13 @@
+.wrapper {
+  width: $wrapper-width;
+  margin: 30px auto 40px;
+
+  .main {
+    width: $main-width;
+  }
+
+  .sidemenu {
+    width: $sidemenu-width;
+    margin-left: calc(#{$wrapper-width} - (#{$main-width} + #{$sidemenu-width}));
+  }
+}

@@ -1,0 +1,84 @@
+$ranking-text-width: 182px;
+$ranking-order-height: 18px;
+
+// color
+$ranking-order-primary-color: #aaa;
+
+.ranking {
+  ol {
+    margin-bottom: $margin-bottom;
+    // この↓2つは忘れそうなので覚えておくこと
+    list-style-type: none;
+    counter-reset: ranking;
+  }
+
+  &__item {
+    margin-top: 15px;
+
+    a {
+      display: block;
+      font-size: 0;
+      position: relative;
+    }
+
+    // この.ranking__item__hogeは、ちょっと冗長だけど、.ranking__textとか.ranking__imgとか出てきそうなのでキッチリ書く
+    &__text {
+      display: inline-block;
+      width: $ranking-text-width;
+      margin-left: calc(#{$sidemenu-width} - (55px + #{$ranking-text-width}));
+      font-size: 1.2rem;
+      color: black;
+      line-height: 1.5;
+      vertical-align: top;
+    }
+
+    &__image {
+      display: inline-block; // コレないと、インライン要素になっちゃう
+      width: 55px;
+      height: 55px;
+    }
+
+    &__order {
+      display: inline-block; // コレないと、インライン要素になっちゃう
+      position: absolute;
+      top: 22px;
+      left: calc(55px + 10px);
+      width: $ranking-order-height;
+      height: $ranking-order-height;
+      border: 1px solid $secondary-background-color;
+      font-size: 1.0rem;
+      text-align: center;
+      line-height: 16px;
+      font-weight: bold;
+      color: $ranking-order-primary-color;
+      transform: rotate(45deg);
+
+      &::before {
+        display: inline-block;
+        transform: rotate(-45deg);
+        content: counter(ranking); // お手本チラ見した、覚えなきゃ!
+        counter-increment: ranking;
+      }
+    }
+
+    // orderの1,2,3は、それぞれ金銀銅の色がつく
+    @for $i from 1 through 3 {
+      &:nth-child(#{$i}) &__order { // ランキング1~3の背景色を変える
+        border: none;
+        color: white;
+        font-weight: normal;
+        line-height: $ranking-order-height; // これつけないとborderの幅の関係で真ん中にならない。もっといい方法は。
+
+        @if $i == 1 {
+          background-color: #dab413;
+        }
+        @if $i == 2 {
+          background-color: #6e7b84;
+        }
+        @if $i == 3 {
+          background-color: #a0541a;
+        }
+      }
+    }
+  }
+}

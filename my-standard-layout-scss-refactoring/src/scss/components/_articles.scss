@@ -1,0 +1,59 @@
+$articles-box-padding: 210px 15px 0;
+$articles-box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
+
+// color
+$articles-title-color: #555;
+
+.articles {
+
+  &__box {
+    display: block;
+    position: relative;
+    width: 315px;
+    height: 360px;
+    box-shadow: $articles-box-shadow;
+    margin-bottom: $margin-bottom;
+    float: left;
+    padding: $articles-box-padding;
+
+    &:nth-child(even) {
+      float: right;
+    }
+  }
+
+  // ここから下は.article__box__hogeになる
+  &__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  &__title {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    line-height: $line-height;
+    color: $articles-title-color;
+  }
+
+  &__description {
+    margin-top: 5px;
+    color: $primary-text-color;
+  }
+
+  &__date {
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    width: 160px;
+    padding: 4px;
+    background-color: $accent-color;
+    color: $primary-color;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: $letter-spacing;
+  }
+}
